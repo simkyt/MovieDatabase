@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MovieDatabase
 //
-//  Created by Simonas Kytra on 23/11/2023.
+//  Created by arturs.olekss on 22/11/2023.
 //
 
 import UIKit
