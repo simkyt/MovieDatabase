@@ -67,7 +67,6 @@ class MovieDetailsView: UIView {
         overviewLabel.lineBreakMode = .byWordWrapping
         
         // button set up
-        openLinkButton.setTitle("Open the movie's webpage...", for: .normal)
         openLinkButton.addTarget(self, action: #selector(openLink), for: .touchUpInside)
         
         contentStackView.axis = .vertical
@@ -157,6 +156,8 @@ class MovieDetailsView: UIView {
         }
         
         overviewLabel.text = withDataFrom.overview
+        
+        openLinkButton.setTitle("Open the movie's webpage...", for: .normal)
     }
     
     @objc func openLink() {
